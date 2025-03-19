@@ -2,7 +2,7 @@
 
 from openai import OpenAI
 
-client = OpenAI(api_key="sk-fc72c8e1ffd74d4ea9be6c667185a165", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="xxx", base_url="https://api.deepseek.com")
 
 response = client.chat.completions.create(
     # model="deepseek-reasoner",   #深度推理模型R1
